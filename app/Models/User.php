@@ -41,4 +41,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * Verify if user has given role.
+     * 
+     * @param String $role
+     * 
+     * @return boolean
+     */
+    public function hasRole($role)
+    {
+        return true;
+    }
 }

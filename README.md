@@ -1,11 +1,28 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Kesta.me install
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+```
+git clone https://github.com/genryeiter/kesta-me.git
+composer install
+./vendor/bin/sail migrate
+cp .env.example .env
+./vendor/bin/sail artisan key:generate
+./vendor/bin/sail artisan storage:link
+./vendor/bin/sail up
+```
+
+Once the application's Docker containers have been started, you can access the application in your web browser at: http://localhost.
+
+
+## Assets
+`./vendor/bin/sail npm install`
+
+
+### Running mix
+`npm run dev` 
+
+`npm run watch` - while developing (watcher)
+
+`npm run production` - for production
 
 ## About Laravel
 
