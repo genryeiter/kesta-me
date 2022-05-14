@@ -8,17 +8,23 @@ export default function Welcome(props) {
             <div className="relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
                 <div className="fixed top-0 right-0 px-6 py-4 sm:block">
                     {props.auth.user ? (
-                        <Link href={route('dashboard')} className="text-sm text-gray-700 underline">
-                            Dashboard
+                        props.auth.isAdmin ? (
+                        <Link href={route('admin.users')} className="text-sm text-gray-700 underline">
+                            Admin
                         </Link>
+                        ) : (
+                            <Link href={route('dashboard')} className="text-sm text-gray-700 underline">
+                                Minu töölaud
+                            </Link>
+                        )
                     ) : (
                         <>
                             <Link href={route('login')} className="text-sm text-gray-700 underline">
-                                Log in
+                               Logi sisse
                             </Link>
 
                             <Link href={route('register')} className="ml-4 text-sm text-gray-700 underline">
-                                Register
+                                Registreeri
                             </Link>
                         </>
                     )}

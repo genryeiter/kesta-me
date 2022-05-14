@@ -4,6 +4,7 @@
 git clone https://github.com/genryeiter/kesta-me.git
 composer install
 ./vendor/bin/sail migrate
+./vendor/bin/sail db:seed
 cp .env.example .env
 ./vendor/bin/sail artisan key:generate
 ./vendor/bin/sail artisan storage:link
@@ -12,17 +13,28 @@ cp .env.example .env
 
 Once the application's Docker containers have been started, you can access the application in your web browser at: http://localhost.
 
+## Database
+
+Regenerate database (run only in development)
+```
+./vendor/bin/sail artisan migrate:fresh --seed
+```
 
 ## Assets
 `./vendor/bin/sail npm install`
 
 
 ### Running mix
-`npm run dev` 
+`./vendor/bin/sail npm run dev` 
 
-`npm run watch` - while developing (watcher)
+`./vendor/bin/sail npm run watch` - while developing (watcher)
 
-`npm run production` - for production
+`./vendor/bin/sail npm run production` - for production
+
+
+## Test emails
+http://localhost:8025/
+
 
 ## About Laravel
 

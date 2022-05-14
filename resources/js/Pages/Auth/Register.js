@@ -9,6 +9,7 @@ import { Head, Link, useForm } from '@inertiajs/inertia-react';
 export default function Register() {
     const { data, setData, post, processing, errors, reset } = useForm({
         name: '',
+        surname: '',
         email: '',
         password: '',
         password_confirmation: '',
@@ -38,7 +39,7 @@ export default function Register() {
 
             <form onSubmit={submit}>
                 <div>
-                    <Label forInput="name" value="Name" />
+                    <Label forInput="name" value="Eesnimi" />
 
                     <Input
                         type="text"
@@ -51,9 +52,23 @@ export default function Register() {
                         required
                     />
                 </div>
+                <div className="mt-4">
+                    <Label forInput="name" value="Perenimi" />
+
+                    <Input
+                        type="text"
+                        name="surname"
+                        value={data.surname}
+                        className="mt-1 block w-full"
+                        autoComplete="surname"
+                        isFocused={true}
+                        handleChange={onHandleChange}
+                        required
+                    />
+                </div>
 
                 <div className="mt-4">
-                    <Label forInput="email" value="Email" />
+                    <Label forInput="email" value="E-post" />
 
                     <Input
                         type="email"
@@ -67,7 +82,7 @@ export default function Register() {
                 </div>
 
                 <div className="mt-4">
-                    <Label forInput="password" value="Password" />
+                    <Label forInput="password" value="Parool" />
 
                     <Input
                         type="password"
@@ -81,7 +96,7 @@ export default function Register() {
                 </div>
 
                 <div className="mt-4">
-                    <Label forInput="password_confirmation" value="Confirm Password" />
+                    <Label forInput="password_confirmation" value="Parooli kordus" />
 
                     <Input
                         type="password"
@@ -95,11 +110,11 @@ export default function Register() {
 
                 <div className="flex items-center justify-end mt-4">
                     <Link href={route('login')} className="underline text-sm text-gray-600 hover:text-gray-900">
-                        Already registered?
+                        Konto olemas?
                     </Link>
 
                     <Button className="ml-4" processing={processing}>
-                        Register
+                        Registreeri
                     </Button>
                 </div>
             </form>

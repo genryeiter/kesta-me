@@ -16,8 +16,8 @@ class EnsureUserHasRole
      */
     public function handle($request, Closure $next, $role)
     {
-        if (! $request->user()->hasRole($role)) {
-            return route('dashboard');
+        if (!$request->user() || !$request->user()->hasRole($role)) {
+            return route('login');
         }
  
         return $next($request);
