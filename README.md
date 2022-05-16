@@ -9,7 +9,6 @@ composer install
 cp .env.example .env
 ./vendor/bin/sail artisan key:generate
 ./vendor/bin/sail artisan storage:link
-./vendor/bin/sail up
 ```
 
 Once the application's Docker containers have been started, you can access the application in your web browser at: http://localhost.
