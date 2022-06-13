@@ -2,14 +2,14 @@
 
 namespace App\Models;
 
+use App\Traits\HasCategory;
+use App\Traits\HasSdg;
+use App\Traits\Trackable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Role extends Model
+class Challenge extends Model
 {
-    use HasFactory, SoftDeletes;
-
-    const ADMIN = 'admin';
-    const USER = 'user';
+    use HasFactory, SoftDeletes, HasCategory, HasSdg, Trackable;
 }
