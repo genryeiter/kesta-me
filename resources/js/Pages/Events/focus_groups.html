@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../../css/event.css">
+    <link rel="stylesheet" href="../../../css/cbImage.css">
+    <title>Sihtrühma valimine</title>
+</head>
+<body>
+<div class="container">
+    <div class="container2">
+        <div class="header"><h1>Loo uus sündmus</h1></div>
+        <div id="dots">
+            <div class="dot">
+                <div class="grayFont">1</div>
+            </div>
+            <div class="dot">
+                <div class="grayFont">2</div>
+            </div>
+            <div class="dot" id="activeDot">
+                <div>3</div>
+            </div>
+            <div class="dot">
+                <div class="grayFont">4</div>
+            </div>
+            <div class="dot">
+                <div class="grayFont">5</div>
+            </div>
+        </div>
+
+        <div class="text centerText">Vali kuni 2 peamist sihtrühma, kellele sündmus on suunatud</div>
+        <div class="text centerText">(täpsema sihtrühma saad kirjutada soovi korral sündmuse kirjeldusse)</div>
+        <div class="container marginTop20px">
+            <div class="cbContainer">
+                <input type="checkbox" name="indiviid" id="indiviid">
+                <label class="goals" for="indiviid"><img src="../../../css/pics/focus_group_pics/Indiviid.png"
+                                                         alt="Eraisikutele" srcset=""></label>
+            </div>
+            <div class="cbContainer">
+                <input type="checkbox" name="haridus" id="haridus">
+                <label class="goals" for="haridus"><img src="../../../css/pics/focus_group_pics/Haridus.png" alt="Eraisikutele"
+                                                        srcset=""></label>
+            </div>
+            <div class="cbContainer">
+                <input type="checkbox" name="teadlased" id="teadlased">
+                <label class="goals" for="teadlased"><img src="../../../css/pics/focus_group_pics/Teadlased.png"
+                                                          alt="Eraisikutele" srcset=""></label>
+            </div>
+            <div class="cbContainer">
+                <input type="checkbox" name="ettevote" id="ettevote">
+                <label class="goals" for="ettevote"><img src="../../../css/pics/focus_group_pics/Ettevõte.png"
+                                                         alt="Eraisikutele" srcset=""></label>
+            </div>
+            <div class="cbContainer">
+                <input type="checkbox" name="kov" id="kov">
+                <label class="goals" for="kov"><img src="../../../css/pics/focus_group_pics/Kov.png"
+                                                    alt="KOV-idele & ministeeriumidele"
+                                                    srcset=""></label>
+            </div>
+            <div class="cbContainer">
+                <input type="checkbox" name="vabbyhendustele" id="vabbyhendustele">
+                <label class="goals" for="vabbyhendustele"><img src="../../../css/pics/focus_group_pics/Vabayhendustele.png"
+                                                                alt="Vabayhendustele" srcset=""></label>
+            </div>
+        </div>
+
+
+        <div class="container btnNextPrev marginTop20px">
+            <a href="create_event_description.html">
+                <input class="btn_previous" type="button" value="Tagasi">
+            </a>
+            <a href="goal_select.html">
+                <input class="btn_next" type="button" value="Edasi">
+            </a>
+        </div>
+
+        <div class="centerText">
+            <div class="marginTopNotaBene">NB! Kõiki valikuid saab hiljem muuta.</div>
+        </div>
+    </div>
+    <a href="" id="closeFormContainer">
+        <div>Väjlu</div>
+        <img class="closeSign" src="../../../css/pics/X.png" alt="" srcset="" width="20px" height="20px"></a>
+</div>
+</div>
+
+</body>
+</html>

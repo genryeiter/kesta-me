@@ -1,0 +1,1030 @@
+.head-list li{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.head-list {
+    font-family: 'nunitosans', sans-serif;
+    margin: 0;
+    padding: 30px;
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+}
+
+.profile {
+    font-family: 'nunitosans', sans-serif;
+    position: relative;
+    width: 130px;
+    height: 48px;
+    border: none;
+}
+
+.profile-logo {
+    position: relative;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #808081;
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 170px;
+    height: 120px;
+}
+
+.notification  {
+    width: 30px;
+    height: 30px;
+}
+
+body{
+    font-family: "", sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    font-family: var(--font-family);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.head-list li{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.head-list {
+    font-family: 'nunitosans', sans-serif;
+    margin: 0;
+    padding: 30px;
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+}
+
+.profile {
+    font-family: 'nunitosans', sans-serif;
+    position: relative;
+    width: 130px;
+    height: 48px;
+    border: none;
+}
+
+.profile-logo {
+    position: relative;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #808081;
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 170px;
+    height: 120px;
+}
+
+.notification	{
+    width: 30px;
+    height: 30px;
+}
+
+.sisu {
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'nunitosans', sans-serif;
+    font-style: normal;
+}
+
+
+.valmis {
+    background-color: #274CD0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: 'nunitosans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.eksam {
+    display: flex;
+    justify-content: center;
+
+}
+
+.stepimg	{
+    width: 104px;
+    height: 24px;
+}
+
+.nimekiri	{
+    color: #bebdbd;
+    width: 350px;
+}
+
+.nimekiri2	{
+    color: #bebdbd;
+    width: 350px;
+    height: 150px;
+}
+
+.input	{
+    width: 350px;
+}
+
+.kirjeldus2 {
+    color: #747373;
+    font-size: 13px;
+
+}
+
+.option	{
+    color: #2E008B;
+}
+
+.eesmarg1 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg1:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg2 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg2:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg3 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg3:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg4 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg4:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg5 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg5:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg6 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg6:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg7 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg7:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg8 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg8:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg9 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg9:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg10 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg10:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg11 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg11:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg12 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg12:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg13 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg13:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg14 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg14:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg15 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg15:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg16 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg16:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg17 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg17:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg18 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg18:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.inimene {
+    width: 72px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.inimene:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.uhiskond {
+    width: 83px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.uhiskond:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.majandus {
+    width: 83px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.majandus:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.elukeskkond {
+    width: 89px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.elukeskkond:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.riigivalitsemine {
+    width: 72px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.riigivalitsemine:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+/* Väljakutse leht, väljakutse loomine ja muutmine //////////////////////////////////////////////////////////////////////*/
+
+.date {
+    width: 350px;
+}
+
+.sihtruhmbtn1 {
+    width: 139px;
+    height: 32px;
+    background-color: #d8c9df;
+    color: #9909E3;
+    border-radius: 50px;
+}
+
+.sihtruhmbtn2 {
+    width: 139px;
+    height: 32px;
+    background-color: #ebd2bb;
+    color: #F2994A;
+    border-radius: 50px;
+}
+
+.sihtruhmbtn3 {
+    width: 139px;
+    height: 32px;
+    background-color: #c3d4ea;
+    color: #2F80ED;
+    border-radius: 50px;
+}
+
+.sihtruhmbtn4 {
+    width: 139px;
+    height: 32px;
+    background-color: #cee7d8;
+    color: #6FCF97;
+    border-radius: 50px;
+}
+
+.sihtruhmbtn5 {
+    width: 139px;
+    height: 32px;
+    background-color: #f3cccc;
+    color: #EB5757;
+    border-radius: 50px;
+}
+
+.sihtruhmbtn6 {
+    width: 139px;
+    height: 32px;
+    background-color: #f2f0f0;
+    color: #828282;
+    border-radius: 50px;
+}
+
+/* .index6-container{
+	display:flex;
+}
+.index6-container-block{
+	display:block;
+} */
+.index6-title {
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.valjakutse-nimi {
+    text-align: left;
+}
+
+.muuda {
+    color: #D8963E;
+    padding-left: 10%;
+}
+
+.input-index8 {
+    width: 300px;
+}
+
+.nimekiri-index8 {
+    width: 300px;
+    color: #bebdbd;
+
+}
+
+.eesmarg7-index9	{
+    width: 100px;
+    height: 100px;
+}
+
+.tagasi	{
+    font-family: 'nunitosans', sans-serif;
+    position: relative;
+    border-radius: 50px 50px 50px 50px;
+    width: 93px;
+    height: 40px;
+    background-color: #003CFF;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+
+}
+
+.valjakutse-subtitle {
+    color: #59BBD7;
+    font-family: 'robotocondenced', sans-serif;
+}
+
+.hero-content	{
+    width: 500px;
+}
+
+.hero-title	{
+    font-family: 'nunitosans', sans-serif;
+    color: #9909E3;
+}
+
+.aktiivne	{
+    font-family: 'nunitosans', sans-serif;
+    font-size: 15px;
+    color: #2E6347;
+    position: relative;
+    border-radius: 50px;
+    background-color: #51DE3E;
+    Width: 85px;
+    Height: 19px;
+    cursor: default;
+    left: 185px;
+    top: -48px;
+}
+
+.looja-ja-toimumisaeg	{
+    position: relative;
+    width: 500px;
+    height: 125px;
+    display: flex;
+    top: -15px;
+}
+
+.looja-logo	{
+    width: 105px;
+    height: 40px;
+}
+
+.public	{
+    font-family: 'nunitosans', sans-serif;
+    font-size: 15px;
+    color: #1a4665;
+    position: relative;
+    border-radius: 50px;
+    background-color: #3e9bde;
+    Width: 85px;
+    Height: 19px;
+    cursor: default;
+    top: -48px;
+    left: 185px;
+}
+
+.video	{
+    position: relative;
+    Width: 800px;
+    Height: 50px;
+    left: 515px;
+    top: -475px;
+}
+
+.eesmargi-logo	{
+    Width: 45px;
+    Height: 45px;
+}
+
+.tag	{
+    position: relative;
+    border-radius: 50px 50px 50px 50px;
+    width: 140px;
+    height: 41px;
+    background-color: #E5E5E5;
+
+    cursor: default;
+}
+
+.tag1	{
+    font-family: 'nunitosans', sans-serif;
+    color: #FF0046;
+}
+
+.tag2	{
+    font-family: 'nunitosans', sans-serif;
+    color: #964542;
+}
+
+.tag3	{
+    font-family: 'nunitosans', sans-serif;
+    color: #2D9CDB;
+}
+
+.ylv-container-flex{
+
+    display:flex;
+    justify-content: center;
+    font-family: 'montserrat', sans-serif;
+
+}
+
+.ylv-container-block {
+    display: block;
+    color: white;
+    padding-left: 30px;
+
+}
+
+.float-right{
+    float:right;
+}
+
+.padding-top{
+    padding-top:20px;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.square{
+    width:80px;
+    height:80px;
+    background: darkgrey;
+    margin: 10px;
+}
+
+.background-blue{
+    background-color: #000096;
+    color:white;
+}
+
+.container-width-300px{
+    width:300px;
+}
+.container-space-between{
+    justify-content: space-between;
+}
+
+.ylv-round-button{
+    width: 400px;
+    height: 50px;
+    border-radius: 55px;
+    color:white;
+}
+
+.ylv-round-button-small{
+    width: 200px;
+    height: 50px;
+    border-radius: 55px;
+    color:white;
+}
+
+.ylv-round-button-small:active{
+    transform: translateY(2px);
+}
+
+.ylv-round-button:active{
+    transform: translateY(2px);
+}
+
+.ylv-btn-color-slowblue{
+    background-color: #2B7AA1;
+    border-style:none;
+    cursor: pointer;
+}
+
+.ylv-btn-color-sloworange{
+    background-color: #AD7351;
+    border-style:none;
+    cursor: pointer;
+}
+
+.ytn-btn-color-slowgreen{
+    background-color: #2E6347;
+    border-style:none;
+    cursor: pointer;
+}
+
+.ylv-round-button-small-blue{
+    background-color: #274CD0;
+    border-style: none;
+    cursor: pointer;
+}
+
+.ylv-btn-color-sloworange:hover{
+    background-color: #e09467;
+    transition: 0.3s;
+
+}.ylv-btn-color-slowblue:hover{
+     background-color: #3598c9;
+     transition: 0.3s;
+
+ }
+
+.ytn-btn-color-slowgreen:hover{
+    background-color: #3f8d65;
+    transition: 0.3s;
+}
+
+.ylv-round-button-small-blue:hover{
+    background-color: #305af8;
+    transition: 0.3s;
+}
+
+.footer	{
+    background-color: #274CD0;
+    padding-bottom: 1%;
+}
+
+.footer-content	{
+    position: relative;
+    width: 1400px;
+    min-height: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.footer-column	{
+    position: relative;
+    width: 150px;
+    height: 225px;
+    color: #ffffff;
+    right: 14px;
+}
+
+.footer-header	{
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer-text	{
+    font-family: 'robotto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.loe-rohkem-footer-btn	{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.jatta-tagasiside-btn	{
+    font-family: '', 'sans-serif';
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.toeta-meid-btn	{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.votta-uhendust-btn	{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.social-media-btns	{
+    position: relative;
+    width: 300px;
+    min-height: 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    top: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-media-btn	{
+    width: 18px;
+    height: 18px;
+}
+
+.footer-column:last-child::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -68px;
+    width: 1px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.poliitika	{
+    position: relative;
+    display: grid;
+    font-size: 17px;
+    top: 90px;
+    right: 18px;
+    color: #FFFFFF;
+}
+
+.bottom-link	{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.k	{
+    position: relative;
+    width: 125px;
+    height: 230px;
+    top: -265px;
+    right: 100px;
+    background-color: #274CD0;
+    cursor: default;
+}
+
+.kirjeldustext {
+    font-family: 'nunitosans', sans-serif;
+}
+
+.main-subtitle-index	{
+    font-family: 'montserrat', sans-serif;
+}
+
+.kaart	{
+    width: 516px;
+    height: 390px;
+}
+
+.kaart2	{
+    position: relative;
+    width: 516px;
+    height: 390px;
+    left: 525px;
+    top: -390px;
+}
+
+.kaardipilt	{
+    width: 516px;
+    height: 288px;
+}
+
+.kaardiinfo	{
+    width: 516px;
+    height: 102px;
+    display: flex;
+    font-size: 8px;
+    justify-content: center;
+}
+
+.avatar-kaardil	{
+    position: relative;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+
+    top: 25px;
+}
+
+.vaata-projekti	{
+    position: relative;
+    border-radius: 50px;
+    width: 145px;
+    height: 40px;
+    left: 30px;
+    top: 25px;
+    border: 2px solid #333333;
+}
+
+.kaarditable	{
+    text-align: center;
+
+}
+
+.projektiarv	{
+    font-size: 25px;
+    color: #828282;
+}
+
+.projekte	{
+    font-size: 10px;
+    color: #BDBDBD;
+}
+
+.seotud-projektid	{
+    height: 475px;
+}
+
+.peamine-eesmarg	{
+    height: 377px;
+    font-family: 'nunitosans', sans-serif;
+}
+
+.peamine-eesmarg-image	{
+    position: relative;
+    width: 521px;
+    height: 281px;
+    left: 250px;
+    top: -150px;
+}
+
+.peamine-eesmarg-kirjeldus	{
+    width: 450px;
+    height: 300px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../../css/event.css">
+    <title>Sündmuse loomine</title>
+</head>
+<body>
+<div class="container">
+    <div class="container2">
+        <div class="header"><h1>Loo uus sündmus</h1></div>
+        <div id="dots">
+            <div class="dot" id="activeDot">
+                <div>1</div>
+            </div>
+            <div class="dot">
+                <div class="grayFont">2</div>
+            </div>
+            <div class="dot">
+                <div class="grayFont">3</div>
+            </div>
+            <div class="dot">
+                <div class="grayFont">4</div>
+            </div>
+            <div class="dot">
+                <div class="grayFont">5</div>
+            </div>
+        </div>
+
+        <div class="text">Sündmuse nimi</div>
+        <input class="form_input" type="text" name="event_creator" id="event_creator">
+
+        <div class="container">
+            <div class="container2 marginTop10px">
+                <div class="text">Kuupäev(algus)</div>
+                <input type="date" class="form_input_short marginTop10px" name="event_day_start" id="event_day_start">
+            </div>
+            <div class="container2 marginTop10px">
+                <div class="text">Kuupäev(lõpp)</div>
+                <input type="date" class="form_input_short marginTop10px" name="event_day_end" id="event_day_end">
+            </div>
+        </div>
+
+
+        <div class="container marginTop5px">
+            <div class="container2">
+                <div class="text">Kellaaeg(algus)</div>
+                <input type="time" class="form_input_short marginTop5px" name="event_time_start" id="event_time_start">
+            </div>
+            <div class="container2">
+                <div class="text">Kellaaeg(lõpp)</div>
+                <input type="time" class="form_input_short marginTop5px" name="event_time_end" id="event_time_end">
+            </div>
+        </div>
+
+        <div class="text marginTop20px">Koht</div>
+        <input class="form_input marginTop5px" type="text" name="event_creator" id="searchTextField">
+
+        <div class="text marginTop20px">Korraldaja</div>
+        <input maxlength="100" class="form_input marginTop5px" type="text" name="event_creator" id="organisator">
+
+        <div id="btn_next_first_alone" class="marginTop20px">
+            <a href="create_event_description.html"><input class="btn_next" type="button" value="Edasi"></a>
+        </div>
+
+        <div class="centerText">
+            <div class="marginTopNotaBene">NB! Kõiki valikuid saab hiljem muuta.</div>
+        </div>
+    </div>
+    <a href="" id="closeFormContainer">
+        <div>Väjlu</div>
+        <img class="closeSign" src="../../../css/pics/X.png" alt="" srcset="" width="20px" height="20px"></a>
+</div>
+</body>
+</html>
