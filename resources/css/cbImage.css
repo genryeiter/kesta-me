@@ -1,0 +1,61 @@
+.cbContainer input[type="checkbox"]{
+    display: none;
+}
+
+.goals img{
+    width: 174px;
+    height:174px;
+    transition-duration: 0.2s;
+}
+
+.goals {
+    border: 2px solid transparent;
+    /*padding: 10px;*/
+    display: flex;
+    /*position: relative;*/
+    /*margin: 10px;*/
+    cursor: pointer;
+    width: 174px;
+    height: 174px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+
+}
+.focusGroupIcons img{
+    width: 100px;
+    height:100px;
+    transition-duration: 0.2s;
+}
+.focusGroupIcons{
+    border: 4px solid transparent;
+    padding: 2px;
+    display: flex;
+    /*position: relative;*/
+    /*margin: 10px;*/
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin-left: 2px;
+}
+
+:checked + .goals {
+    border-color: #4CBBDD;
+    /*background-color: rgba(76, 187, 221, 0.09);*/
+    /*background-color: #E6EEF6;*/
+}
+
+:checked + .goals img {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+:checked + .focusGroupIcons{
+    border-color: #4CBBDD;
+    /*background-color: rgba(76, 187, 221, 0.09);*/
+    background-color: #E6EEF6;
+}
+
+:checked + .focusGroupIcons img{
+    transform: scale(1.05);
+    z-index: 1;
+}

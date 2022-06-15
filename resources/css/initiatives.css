@@ -1,0 +1,866 @@
+
+body{
+    font-family: "", sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    font-family: var(--font-family);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hero {
+    padding-top: 189px;
+    padding-bottom: 100px;
+    min-height: 0px;
+    background-image: url("./pics/challenge_initiative_pics/dogpic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: azure;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.head-list li{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.head-list {
+    font-family: 'nunitosans', sans-serif;
+    margin: 0;
+    padding: 30;
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+}
+
+.profile {
+    font-family: 'nunitosans', sans-serif;
+    position: relative;
+    width: 130px;
+    height: 48px;
+    border: none;
+}
+
+.profile-logo {
+    position: relative;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color: #808081;
+    cursor: pointer;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 170px;
+    height: 120px;
+}
+
+.notification	{
+    width: 30px;
+    height: 30px;
+}
+
+.tagasi	{
+    position: relative;
+    border-radius: 50px 50px 50px 50px;
+    width: 93px;
+    height: 40px;
+    background-color: #0000ff;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    top: -150px;
+}
+
+.lisa-lemmikutesse {
+    position: relative;
+    border-radius: 50px 50px 50px 50px;
+    width: 246px;
+    height: 41px;
+    background-color: #D4E422;
+    left: 890px;
+    top: -150px;
+}
+
+.hero-content {
+    position: relative;
+    width: 807px;
+    height: 77px;
+    width: 807px;
+    height: 77px;
+    left: 230px;
+    top: -70px;
+
+}
+
+.hero-subtitle	{
+    font-family: 'nunitosans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    font-family: 'robotocondenced', sans-serif;
+
+}
+
+.tag	{
+    position: relative;
+    border-radius: 50px 50px 50px 50px;
+    width: 140px;
+    height: 41px;
+    background-color: #E5E5E5;
+    margin: 15px;
+    cursor: default;
+}
+
+.tag1	{
+    font-family: 'nunitosans', sans-serif;
+    color: #FF0046;
+}
+
+.tag2	{
+    font-family: 'nunitosans', sans-serif;
+    color: #964542;
+}
+
+.tag3	{
+    font-family: 'nunitosans', sans-serif;
+    color: #2D9CDB;
+}
+
+.sundmused	{
+    font-family: 'robotto', sans-serif;
+    position: relative;
+    width: 300px;
+    height: 60.9px;
+    background: #FF8201;
+    color: #E5E5E5;
+    border-radius: 8px;
+    left: 600px;
+    top: -50px;
+}
+
+.postitused-arutelu	{
+    font-family: 'robotto', sans-serif;
+    position: relative;
+    width: 300px;
+    height: 60.9px;
+    background: #FF8201;
+    color: #E5E5E5;
+    border-radius: 8px;
+    left: 600px;
+    top: -50px;
+}
+
+.asukoht	{
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    color: #1F2041;
+    position: relative;
+    left: 375px;
+}
+
+.map	{
+    position: relative;
+    margin-left: 375px;
+
+}
+
+.panustab-eesmärkidesse {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    width: 269px;
+    height: 48px;
+    margin-left: 750px;
+    top: -100px;
+
+}
+
+.comment	{
+    position: relative;
+    width: 33.29px;
+    height: 35px;
+}
+
+.reaction	{
+    position: relative;
+    width: 33.29px;
+    height: 35px;
+    left: 15px;
+}
+
+.share	{
+    position: relative;
+    width: 33.29px;
+    height: 35px;
+    left: 30px;
+}
+
+.buttons-status-container{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    top: -40px;
+}
+
+.actions-buttons {
+    position: relative;
+    left: 175px;
+    top: -43px;
+}
+
+.video	{
+    position: relative;
+    top: -620px;
+}
+
+.meeskond-arv	{
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    color: #1F2041;
+    position: relative;
+    left: 750px;
+}
+
+.meeskonna-liige1 {
+    position: relative;
+    width: 85px;
+    height: 73px;
+}
+
+.meeskonna-liige2 {
+    position: relative;
+    width: 85px;
+    height: 73px;
+    left: 30px;
+}
+
+.meeskonna-liige3 {
+    position: relative;
+    width: 85px;
+    height: 73px;
+    left: 60px;
+}
+
+.kirjeldus-head	{
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 168.9%;
+    color: #1F2041;
+    position: relative;
+    background-color: #EEE6FF;
+    height: 76px;
+    width: 700px;
+    top: -600px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.kirjeldus-text	{
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    color: #1F2041;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 168.9%;
+    position: relative;
+    width: 700px;
+    top: -575px;
+
+}
+
+.loe-rohkem	{
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    color: #1F2041;
+    position: relative;
+    width: 700px;
+    top: -575px;
+    left: 593px;
+}
+
+.eesmargid-ja-tulemused	{
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 168.9%;
+    color: #1F2041;
+    position: relative;
+    background-color: #EEE6FF;
+    height: 76px;
+    width: 700px;
+    display: table-cell;
+    vertical-align: middle;
+    top: -550px;
+}
+
+.eesmargid-ja-tulemused-text	{
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    color: #1F2041;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 168.9%;
+    text-align: center;
+    position: relative;
+    width: 350px;
+    height: 1px;
+    top: -500px;
+}
+
+.eesmargid-ja-tulemused-text2	{
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    color: #1F2041;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 168.9%;
+    text-align: center;
+    position: relative;
+    width: 350px;
+    height: 1px;
+    top: -527px;
+    left: 350px;
+}
+
+.footer	{
+    background-color: #274CD0;
+    padding-bottom: 1%;
+}
+
+.footer-content	{
+    position: relative;
+    width: 1400px;
+    min-height: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.footer-column	{
+    position: relative;
+    width: 150px;
+    height: 225px;
+    color: #ffffff;
+    right: 14px;
+}
+
+.footer-header	{
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer-text	{
+    font-family: 'robotto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.loe-rohkem-footer-btn	{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.jatta-tagasiside-btn	{
+    font-family: '' sans-serif;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.toeta-meid-btn	{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.votta-uhendust-btn	{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: 'robotocondenced', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.social-media-btns	{
+    position: relative;
+    width: 300px;
+    min-height: 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    top: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-media-btn	{
+    width: 18px;
+    height: 18px;
+}
+
+.footer-column:last-child::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -68px;
+    width: 1px;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.poliitika	{
+    position: relative;
+    display: grid;
+    font-size: 17px;
+    top: 90px;
+    right: 18px;
+    color: #FFFFFF;
+}
+
+.bottom-link	{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.k	{
+    position: relative;
+    width: 125px;
+    height: 230px;
+    top: -265px;
+    right: 100px;
+    background-color: #274CD0;
+    cursor: default;
+}
+
+/* index2 */
+
+.sisu {
+    width: 500px;
+    height: 500px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'nunitosans', sans-serif;
+    font-style: normal;
+}
+
+
+.valmis {
+    background-color: #274CD0;
+    box-sizing: border-box;
+    border-radius: 50px;
+    color: #ffffff;
+    font-family: 'nunitosans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    width: 148px;
+    height: 40px;
+}
+
+.eksam {
+    display: flex;
+    justify-content: center;
+
+}
+
+.stepimg	{
+    width: 104px;
+    height: 24px;
+}
+
+.nimekiri	{
+    color: #bebdbd;
+    width: 350px;
+}
+
+.input	{
+    width: 350px;
+}
+
+.kirjeldus2 {
+    color: #747373;
+    font-size: 13px;
+
+}
+
+.option	{
+    color: #2E008B;
+}
+
+.eesmarg1 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg1:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg2 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg2:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg3 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg3:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg4 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg4:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg5 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg5:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg6 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg6:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg7 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg7:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg8 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg8:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg9 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg9:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg10 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg10:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg11 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg11:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg12 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg12:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg13 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg13:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg14 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg14:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg15 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg15:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg16 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg16:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg17 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg17:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.eesmarg18 {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.eesmarg18:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.inimene {
+    width: 72px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.inimene:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.uhiskond {
+    width: 83px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.uhiskond:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.majandus {
+    width: 83px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.majandus:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.elukeskkond {
+    width: 89px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.elukeskkond:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}
+
+.riigivalitsemine {
+    width: 72px;
+    height: 72px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+    padding: 0;
+}
+
+.riigivalitsemine:focus {
+    border: 2px solid #0000ff;
+    padding: 0;
+}

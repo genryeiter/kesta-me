@@ -1,0 +1,45 @@
+*   {
+    box-sizing: border-box;
+}
+
+a	{
+    text-decoration: none;
+    color: black;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'nunitosans';
+    src: url('fonts/NunitoSans-Regular.woff') format('woff');
+    font-display: swap;
+
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotocondenced';
+    src: url('fonts/roboto-condensed-v25-latin-regular.woff') format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotto';
+    src: url('fonts/Roboto-Regular.woff') format('woff');
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('fonts/Montserrat-Regular.woff') format('woff');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
