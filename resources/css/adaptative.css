@@ -1,0 +1,1266 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: var(--font-family);
+    width: 100%;
+    background-repeat: repeat-x;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+}
+h4{
+    font-family: 'Nunito', sans-serif;
+}
+
+strong{
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+    color: #C4C4C4;
+}
+
+img{
+    max-width: 100%;
+}
+
+::before,
+::after{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('fonts/RobotoCondensed-Regular.woff') format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+:root{
+    --font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    /* width: 300px; */
+    /* padding: 0 15px; */
+    margin: 0 auto;
+    width: 1150px;
+    padding: 0 15px;
+}
+
+
+.header{
+    width: 100%;
+    display: contents;
+}
+
+.header-container{
+    /*position: absolute;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    padding: 50px 0;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+/* li .menu_body{
+    cursor: pointer;
+} */
+/* .menu_link:hover{
+    cursor: pointer;
+} */
+.menu_link {
+    /* display: inline-block; */
+    text-decoration: none;
+    color: black;
+    /* cursor: pointer; */
+    /* pointer-events: auto; */
+    /* opacity: 0; */
+}
+
+.menu_body{
+    display: flex;
+    padding-top: 24px;
+    cursor: pointer;
+}
+
+
+ul.menu_list li {
+    display: inline;
+    /* height: 110px; */
+    line-height: 48px;
+    padding-left: 36px;
+    /* cursor: pointer; */
+
+}
+
+
+ul.menu_buttons li {
+    padding-left: 12px;
+
+}
+
+.main-container{
+    text-align: center;
+    /* margin: 0 auto; */
+    /* align-items: center; */
+    position: absolute;
+    padding: 20px;
+    padding-top: 100px;
+    /* justify-content: center; */
+    left: 50%;
+    top: 40%;
+    /* -webkit-transform: translateX(-50%) translateY(-50%); */
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.title{
+    /* width: 992px; */
+    height: 120px;
+    /* top: 157px; */
+}
+
+.title_hero{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65.47px;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    font-family: var(--font-family);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.reg_buttons{
+    padding-bottom: 36px;
+}
+
+.submit_button{
+    padding-bottom: 32px;
+}
+.subtitle{
+    padding-bottom: 10px;
+}
+
+.auth_link{
+    /* text-decoration: none; */
+    padding-bottom: 50px;
+}
+
+.auth_msg{
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.reg_button{
+    /* margin-right: 20px; */
+    width:269px;
+    height:182px;
+    background-color: transparent;
+    border:none;
+}
+
+.ise{
+    background-image: url('../css/pics/Registration-images/logisisse.png');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.ise:hover{
+    background-image: url('../css/pics/Registration-images/logisisseperson.png');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.ise:focus{
+    background-image: url('../css/pics/Registration-images/logisisseperson.png');
+    background-repeat: no-repeat;
+    padding: 0;
+    /* opacity: 0;
+    transition: all .6s ease-in-out; */
+}
+
+.company{
+    background-image: url('../css/pics/Registration-images/Group540.png');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.company:hover{
+    background-image: url('../css/pics/Registration-images/Frame11.png');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.company:focus{
+    background-image: url('../css/pics/Registration-images/Frame11.png');
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.submit_but{
+    /* background-image: url('../Registration-Post-images/filled.png'); */
+    background-repeat: no-repeat;
+    padding: 0;
+    color: white;
+    background-color: #274CD0;
+    width: 335px;
+    height: 40px;
+    border-radius: 55px;
+    border:2px solid #0000ff;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+}
+
+.submit_but:hover{
+    background-color: rgb(0, 60, 189);
+    border:2px solid white;
+}
+/*
+.reg_button:hover{
+    border:2px solid #0000ff;
+    border-radius: 8px;
+    cursor:pointer;
+} */
+
+.subtitle{
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.auth_msg:hover{
+    color: #0000ff;
+}
+
+@media (max-width: 1150px){
+    .main-container{
+        /* text-align: center; */
+        position: fixed;
+        top: 380px;
+        /* padding: 20px; */
+        margin: 0 auto;
+        /* justify-content: center; */
+        /* left: 50%; */
+        /* top: 50%; */
+        /* -webkit-transform: translateX(-50%) translateY(-50%); */
+        /* transform: translateX(-50%) translateY(-50%); */
+    }
+    .container{
+        margin: 0 25px;
+        margin-right: 25px;
+    }
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Logi sisse page*/
+
+.logisisse-container{
+    top: 10%;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PERSON REGISTRATION PAGE 1 STEP */
+
+.reg-title{
+    padding-top: 60%;
+
+    /* max-width: 700px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* font-size: 36px; */
+}
+
+.reg-options{
+    /* display: inline-flex; */
+}
+
+.back-button{
+    margin: 15px 0;
+}
+
+.back-link:hover{
+    color: black;
+}
+
+.info-pole{
+    display: inline-grid;
+    padding-bottom: 20px;
+}
+
+.register{
+    width: 339px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.label{
+    display: flex;
+    padding: 12px 0;
+    font-family: 'Nunito', sans-serif;
+}
+.company_name{
+    width: 339px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.reg_ways{
+    display: inline-grid;
+    padding-bottom: 40px;
+}
+
+.google_btn{
+    margin-bottom: 16px;
+    color: #828282;
+    background-color: #EFEFEF;
+    border:2px solid #828282;
+}
+
+.google_btn:hover{
+    background-color: #C4C4C4;
+    border:2px solid white;
+}
+
+.fb_btn{
+    border:2px solid #828282;
+}
+
+.auth_footer{
+    padding-bottom: 80px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PERSON REGISTRATION PAGE 2 STEP */
+
+
+.back_but{
+    /* background-image: url('../Registration-Post-images/filled.png'); */
+    background-repeat: no-repeat;
+    padding: 0;
+    color: #274CD0;
+    background-color: white;
+    width: 335px;
+    height: 40px;
+    border-radius: 55px;
+    border:2px solid #0000ff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.back_but:hover{
+    background-color: rgb(0, 60, 189);
+    color: white;
+    border:2px solid white;
+}
+
+.back_button{
+    padding-bottom: 80px;
+}
+
+
+
+.container-challenge{
+    margin: 0 auto;
+    width: 1150px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.reg-title-challenge{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.title_hero-challenge{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+}
+
+.subtitle-challenge{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+}
+.challenge-category{
+    border: 2px solid black;
+}
+/* .register{
+    border: 2px solid black;
+} */
+
+#challenge_date{
+    width: 339px;
+    height: 32px;
+    border-radius: 5px;
+}
+
+.date-challenge{
+    display: inline-flex;
+    padding-top: 35px;
+}
+
+.footer-back{
+    padding-bottom: 150px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PERSON REGISTRATION PAGE 3 STEP */
+
+
+.h4-title-blue{
+    color: #0000ff;
+}
+
+/* .cat_button{
+    width: 206px;
+    height: 96px;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-box-shadow: 5px 4px 15px 0px rgba(0,0,0,0.26);
+    box-shadow: 5px 4px 15px 0px rgba(0,0,0,0.26);
+    border: none;
+    outline:none;
+    padding: 5px;
+} */
+
+/* .cat_button:hover{
+    border:2px solid #0000ff;
+} */
+/*
+.cat_button:focus{
+    border:2px solid #0000ff;
+} */
+
+/* .solo{
+    padding-bottom: 5px;
+} */
+/* .categories2{
+    padding: 20px;
+} */
+
+.categories-themes-wrapper {
+
+}
+
+.categories-themes-row {
+    margin: 15px;
+    display: flex;
+    place-content: center;
+}
+
+.categories-theme-button {
+    border: 1px solid #000;
+    /* border-radius: 5px; */
+    cursor: pointer;
+    width: 206px;
+    justify-content: space-between;
+    height: 96px;
+    vertical-align: middle;
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+    background-color: white;
+    -webkit-box-shadow: 5px 4px 15px 0px rgba(0,0,0,0.26);
+    box-shadow: 5px 4px 15px 0px rgba(0,0,0,0.26);
+    border: none;
+    outline:none;
+
+}
+
+.categories-theme-text {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    height: max-content;
+    width: max-content;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 3px;
+}
+
+.kasu-ting{
+    text-decoration: none;
+    color: deepskyblue;
+}
+.kasu-ting:hover{
+    color: #0000ff;
+}
+
+.tingimus{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+
+.kasu-ting-wrapper{
+    padding-bottom: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PERSON REGISTRATION PAGE finish */
+
+.finish_title{
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Company REGISTRATION PAGE o step */
+
+
+.reg_text_p{
+    color: #000;
+    font-weight: 300;
+
+}
+
+.company_reg_title{
+    margin-top: -30%;
+}
+
+.company_reg_title_0_step{
+    margin-top: -15%;
+}
+
+.auth_link_company{
+    padding-bottom: 30px;
+}
+
+
+.reg_info_text_p{
+    margin-bottom: 35px;
+}
+
+/* button div{
+    width: 255px;
+    height: 169.25px;
+    background-image: url(Post-images/ui-icons_d19405_256x240.png);
+    background-image: url('../Registration-Post-images/enterprise.png');
+    background-repeat: no-repeat;
+    padding: 0;
+    border-radius: 7px;
+    border:2px solid #0000ff;
+} */
+
+.continue_company{
+    /* background-image: url('../Registration-Post-images/Group\ 665.png'); */
+    /* background-image: url('../Registration-Post-images/enterprise.png'); */
+    background-repeat: no-repeat;
+    padding: 0;
+    border-radius: 7px;
+    border:2px solid #C4C4C4;
+    width: 269px;
+    height: 182px;
+
+}
+
+.continue_company:hover .myImg {
+    text-align:center;
+    filter: brightness(0) invert(1);
+}
+.continue_company:focus .myImg {
+    text-align:center;
+    filter: brightness(0) invert(1);
+}
+
+.continue_company:hover .konto_loomine_text {
+    text-align:center;
+    /* filter: brightness(0) invert(1); */
+    color: white;
+}
+.continue_company:focus .konto_loomine_text {
+    text-align:center;
+    /* filter: brightness(0) invert(1); */
+    color: white;
+}
+
+.myImg{
+	text-align:center;
+    margin-top: 20px;
+}
+
+/* .myImg:hover{
+	text-align:center;
+    filter: brightness(0) invert(1);
+
+} */
+/* .myImg:focus{
+	text-align:center;
+    filter: brightness(0) invert(1);
+} */
+
+
+.continue_company:hover{
+    background-repeat: no-repeat;
+    padding: 0;
+    background-color: #0000ff;
+    border-radius: 7px;
+    border:2px solid #0000ff;
+    width: 269px;
+    height: 182px;
+}
+.continue_company:focus{
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    border:2px solid #0000ff;
+    /* border-radius: 2px #000; */
+    padding: 0;
+}
+
+/* .button div.continue_company{
+    background-position: 96px 112px;
+    float: none;
+} */
+
+/* .button div.continue_text{
+    background-position: -96px -112px;
+    float: left;
+} */
+.continue_text{
+    margin-top: 30px;
+}
+
+.head-list li{
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.head-list {
+    font-family: 'nunitosans', sans-serif;
+    margin: 0;
+    padding: 30px;
+    /* max-width: 550px; */
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+}
+
+.profile {
+    font-family: 'nunitosans', sans-serif;
+    position: relative;
+    width: 130px;
+    height: 48px;
+    border: none;
+    background-color: white;
+}
+
+.profile-logo {
+  position: relative;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-color: #808081;
+  cursor: pointer;
+}
+
+/* .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.logo {
+    width: 170px;
+    /* height: 120px; */
+}
+
+.notification  {
+  width: 30px;
+  height: 30px;
+}
+
+.head-link{
+    text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
+.notification {
+    background-color: white;
+    border:none;
+}
+
+.konto_loomine_text{
+    color: black;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* Registration company 1 step */
+
+.company_confirmation{
+    border: 2px solid black;
+}
+
+/* #company_conf{
+    width: 300px;
+    height: 82px;
+} */
+
+.company_confirmation_label{
+    font-size: small;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.company_confirmation_wrapper{
+    display: flex;
+    align-items: center;
+    width: 339px;
+    height: 150px;
+}
+input.company_confirmation{
+    width: 33px;
+    height: 33px;
+    /* margin-top: 20px; */
+    border: 2px solid black;
+}
+
+    /* -------------------------------------------------------------------------------------------*/
+     /* Company Reg 2 step */
+.company_reg_pole{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+    /* -------------------------------------------------------------------------------------------*/
+     /* Company Reg 3 step */
+
+.company_categories_wrapper{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* Kogukonnasein */
+
+*{
+    box-sizing: border-box;
+}
+
+.otsingu_sein{
+    /*width: 100%;*/
+    /*position: absolute;*/
+    /*max-width: 4096px;*/
+    /*height: 420px;*/
+    min-height: 500px;
+    /*max-width: available;*/
+    /* margin-bottom: 30px; */
+    background-image: url('../css/pics/Registration-images/Group689.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*object-fit: cover;*/
+}
+
+.nav-container{
+    /* margin-top: 70px; */
+    /*display: block;*/
+    text-align-last: center;
+}
+
+.search-bar{
+    box-sizing: border-box;
+    width: 523px;
+    /* width:85%; */
+    padding-left: 20px;
+    height: 45px;
+    border-radius: 26px;
+    border: none;
+}
+.search-bar:focus {
+    outline: none;
+  }
+
+.main-container-community-wall{
+    width: 100%;
+    height: 100%;
+    background-color: #EFEFEF;
+    padding-bottom: 1000px;
+}
+
+
+.nav-title-h1{
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    /*font-size: -webkit-xxx-large;*/
+}
+
+.nav-title{
+    /* margin-top: -10px; */
+    padding-top: 30px;
+}
+
+.nav-subtitle-p{
+    color: white;
+    padding-top: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: x-large;
+}
+
+.nav-subtitle{
+    width: 696px;
+    height: 69px;
+    display: inline;
+}
+
+.nav-search-panel{
+    /*padding-top: 48px;*/
+}
+
+/* input.search-bar{
+    background-image: url('../Registration-Post-images/Vector\ \(1\).png');
+    width: 20px;
+    height: 20px;
+
+} */
+
+.actions-list{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 1080px;
+    height: 240px;
+    /* border: 2px solid black; */
+}
+.action-element{
+    display: inline;
+    justify-content: center;
+    padding-top: 20px;
+    width: 270px;
+    height: 230px;
+    /* border: 2px solid blue; */
+
+}
+
+.community-wall{
+    display: grid;
+    background-color: white;
+    width: 270px;
+    height: 230px;
+}
+
+.community-wall:hover{
+    /* display: grid; */
+    border: 2px solid #828282;
+    /* width: 270px;
+    height: 230px; */
+}
+
+.challenges{
+    display: grid;
+    background-color: white;
+}
+.challenges:hover{
+    /* display: grid; */
+    border: 2px solid #828282;
+}
+
+.initiatives{
+    display: grid;
+    background-color: white;
+}
+.initiatives:hover{
+    /* display: grid; */
+    border: 2px solid #828282;
+}
+
+.events{
+    display: grid;
+    background-color: white;
+}
+
+.events:hover{
+    /* display: grid; */
+    border: 2px solid #828282;
+}
+.action-text{
+    text-align: center;
+    color: steelblue;
+}
+.action-amount-brackets{
+    /* text-align: center; */
+    justify-content: center;
+    color: blue;
+    display: flex;
+    /* padding-bottom: 50px; */
+    margin-bottom: 50px;
+}
+
+.action-link{
+    text-decoration: none;
+}
+
+.main-content-container{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 10px 0;
+    height: 1000vh;
+    background-color: white;
+    padding-top: 10px;
+    /*position:relative;*/
+    /*top:0;*/
+    /*bottom:0;*/
+    /*left:0;*/
+    /*right:0;*/
+}
+
+.filter-wrapper{
+    width: 322px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.filter-wrapper {
+    /*border-right: 1px solid #cccccc !important;*/
+    /*padding: 20px !important;*/
+    -webkit-box-shadow: 5px 4px 15px 0px rgba(0,0,0,0.26);
+    box-shadow: 5px 4px 15px 0px rgba(0,0,0,0.26);
+    border: none;
+    outline:none;
+}
+
+.clear-da-baton{
+    margin-bottom: 16px;
+    width: 286px;
+    height: 40px;
+    color: orangered;
+    background-color: white;
+    border:2px solid orangered;
+}
+
+.clear-da-baton:hover{
+    color: white;
+    background-color: orangered;
+    border:2px solid white;
+}
+
+.body {background-color : #ededed; font-family : "Open Sans", sans-serif;}
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*DROPDOWN MENU TEMPLATE*/
+h1 {padding: 40px; text-align: center; font-size: 1.5em;}
+
+li a {text-decoration : none; color : #2d2f31;}
+
+span {
+  padding : 10px;
+  background : white;
+  color : black;
+  font-size : 1.2em;
+  font-variant : small-caps;
+  cursor : pointer;
+  display: block;
+}
+
+span::after {
+  float: right;
+  right: 10%;
+  /* content: "+"; */
+}
+
+.slide {
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+::marker{
+    counter-reset: none;
+    content: none;
+}
+
+/* .slide li {padding : 30px;} */
+
+#touch {position: absolute; opacity: 0; height: 0px;}
+
+#touch:checked + .slide {height: 170px;}
+
+
+.checkbox-li{
+    display: flex;
+    align-items: baseline;
+}
+
+.input.checkbox-li{
+    width: 33px;
+    height: 33px;
+    /* margin-top: 20px; */
+    border: 2px solid black;
+}
+
+li {
+    list-style-type: none;
+}
+ul{
+    padding-left: 5px;
+}
+
+.sdg-elements{
+  clear:both;
+  width:100%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+}
+
+#SDG-touch {position: absolute; opacity: 0; height: 0px;}
+
+#SDG-touch:checked + .sdg-elements {height: 260px;}
+
+.SDG-dropdown{
+    display: block;
+}
+.sdg-elements{
+    display: flex;
+}
+
+.cbContainer{
+    padding: 2px;
+}
+
+.action-dropdown{
+    display: block;
+}
+
+.actions-list-filter{
+    display: block;
+    clear:both;
+    width:100%;
+    height:0px;
+    overflow: hidden;
+    text-align: center;
+    transition: height .4s ease;
+}
+
+#action-touch {position: absolute; opacity: 0; height: 0px;}
+
+#action-touch:checked + .actions-list-filter {height: 800px;}
+
+
+.dropdown{
+    display: inline-block;
+    /*border-bottom: ridge;*/
+}
+
+/*.filter-wrapper {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr 1fr;*/
+/*    grid-gap: 1rem;*/
+/*}*/
+
+.posts-wall-wrappper{
+    width: 50%;
+}
+
+.additional-content-actions-buttons{
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.select_but{
+    /* background-image: url('../Registration-Post-images/filled.png'); */
+    background-repeat: no-repeat;
+    padding: 0;
+    color: white;
+    background-color: #274CD0;
+    width: 300px;
+    height: 40px;
+    border-radius: 55px;
+    border:2px solid #0000ff;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.algatus_button{
+    color: white;
+    background-color: darkgoldenrod;
+    border: 2px solid darkgoldenrod;
+}
+.algatus_button:hover{
+    background-color: chocolate;
+    border: 2px solid white;
+}
+
+.event_button{
+    color: white;
+    background-color: #2d9cdb;
+    border: 2px solid #2d9cdb;
+}
+.event_button:hover{
+    background-color: dodgerblue;
+    border: 2px solid white;
+}
+.challenge_button{
+    color: white;
+    background-color: #0000ff;
+    border:2px solid #0000ff;
+}
+.challenge_button:hover{
+    background-color: #0022af;
+    border: 2px solid white;
+}
+.add-content-block{
+    border-bottom: ridge;
+    /*width: 220px;*/
+}
+
+.add-content-block-toptitle{
+    padding-bottom: 20px;
+}
+
+.additional-content-profile-stats-picture img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.additional-content-profile-stats-picture{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.add-content-profile-subtitle{
+    font-size: 10px;
+}
+
+.additional-content-profile-stats{
+    /*padding-top: 30px;*/
+    padding-bottom: 30px;
+    width: 220px;
+}
+
+.additional-content-algatus-block{
+    padding-bottom: 30px;
+}
+
+.add-content-algatus-link{
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1400px){
+    .otsingu_sein{
+        /*width: 100%;*/
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /*position: relative;*/
+        /*width: 100vw;*/
+        /*height: 30vh;*/
+        /*position: absolute;*/
+        /*left: 0;*/
+        /*top: 0;*/
+        /*padding-top: 24px;*/
+        /*padding-bottom: 24px;*/
+        /*width: 100%;*/
+    }
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------
+/**! CB images*/
+
+
+.cbContainer input[type="checkbox"]{
+    display: none;
+}
+
+/* .goals Registration-Post-images{
+    width: 174px;
+    height:174px;
+    transition-duration: 0.2s;
+} */
+/*
+.goals {
+    border: 2px solid transparent;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    width: 174px;
+    height: 174px;
+    margin-left: 2px;
+    margin-bottom: 2px;
+
+} */
+.focusGroupIcons img{
+    width: 50px;
+    height:40px;
+    transition-duration: 0.2s;
+}
+.focusGroupIcons{
+    border: 4px solid transparent;
+    padding: 2px;
+    display: flex;
+    /*position: relative;*/
+    /*margin: 10px;*/
+    cursor: pointer;
+    width: 50px;
+    height: 48px;
+    margin-left: 2px;
+}
+
+/* :checked + .goals {
+    border-color: #4CBBDD;
+    background-color: rgba(76, 187, 221, 0.09);
+    background-color: #E6EEF6;
+} */
+
+/* :checked + .goals Registration-Post-images {
+    transform: scale(1.1);
+    z-index: 1;
+} */
+
+:checked + .focusGroupIcons{
+    /* border-color: #4CBBDD; */
+    /*background-color: rgba(76, 187, 221, 0.09);*/
+    /* background-color: #E6EEF6; */
+    border: 2px solid blue;
+    background-color: blue;
+    /* border-width: 1px; */
+    /* border-; */
+}
+
+:checked + .focusGroupIcons img{
+    transform: scale(1.05);
+    z-index: 1;
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/adaptative.css">
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <title>Isik registr</title>
+</head>
+<body>
+<header class="header">
+    <div class="container header-container">
+    </div>
+</header>
+<main>
+    <div class="container main-container">
+        <div class="reg-title">
+            <h1 class="title_hero">Loo uus väljakutse</h1>
+        </div>
+        <div class="reg-options">
+            <div class="back-button">
+                <p>Selgitav tekst</p>
+            </div>
+        </div>
+        <div class="reg_steps">
+            <img src="../../../css/pics/Registration-images/Steps.png" alt="First registration step">
+        </div>
+        <form class="info-pole">
+            <label id="label" for="company_name">Väljakutse nimi</label>
+            <input id="register" type="text" class="company_name" >
+            <label id="label" for="company_person">Peamine kontaktisik</label>
+            <input id="register" type="text" class="company_person">
+            <label id="label" for="isik-email">Kontaktisiku e-maili aadress</label>
+            <input id="register" type="email" class="isik-email">
+            <label id="label" for="isik_pass_confirm">Väljakutse kategooria</label>
+            <select id="register" class="challenge-category"></select>
+            <form class="date-challenge">
+                <label for="start" id="label">Algus</label>
+                <input type="date" value="cal" id="challenge_date" name="challenge_date_name" >
+                <label for="finish" id="label">Lõpp</label>
+                <input type="date" id="challenge_date" name="challenge_date_name" >
+            </form>
+
+        </form>
+        <div class="submit_button footer-back">
+            <button class="submit_but">Edasi</button>
+        </div>
+    </div>
+</main>
+
+
+</body>
+</html>
