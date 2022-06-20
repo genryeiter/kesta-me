@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../css/adaptative.css">
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <title>Ettevõte registr</title>
+</head>
+<body>
+    <header class ="header">
+        <div class="container header-container">
+            <a class="logo">
+                <img src="../../../css/pics/Registration-images/Logo%20uus.png" alt="Kesta.me logo">
+            </a>
+            <ul class="menu_list">
+                <li><a href="https://kesta.me/et/eesmargid" class="menu_link">Eesmärgid</a></li>
+                <li><a href="https://kesta.me/et/tegutse" class="menu_link">Tegutse</a></li>
+                <li><a href="https://kesta.me/et/moju" class="menu_link">Mõju</a></li>
+                <li><a href="https://kesta.me/et/kellele" class="menu_link">Kellele?</a></li>
+                <li><a href="https://kesta.me/et/meist" class="menu_link">Meist</a></li>
+                <li><a href="https://kesta.me/et/uudised" class="menu_link">Uudised</a></li>
+            </ul>
+            <ul class="menu_list menu_buttons">
+                <li><a href=""><button class="profile-logo btn-reset"></button></a></li>
+                <li><a href=""><button class="profile btn-reset">Telia</button></a></li>
+                <li><a href=""><button class="notification btn-reset"><img src="../../../css/pics/Registration-images/fa-solid_bell.png" alt="notification"></button></a></li>
+            </ul>
+        </div>
+    </header>
+<main>
+    <div class="container main-container">
+        <div class="reg-title company_reg_title">
+            <h1 class="title_hero">Loo asutuse konto</h1>
+        </div>
+        <div class="reg-options">
+            <div class="back-button">
+                <a href="initial_page_registration.html" class="back-link"><img src="../../../css/pics/Registration-images/tagasivalima.png" alt="Tagasi valima"></a>
+            </div>
+            <div class="reg_buttons">
+                <button class="reg_button company"></button>
+            </div>
+        </div>
+        <div class="reg_steps">
+            <img src="../../../css/pics/Registration-images/Steps.png" alt="First registration step">
+        </div>
+        <form class="info-pole">
+            <label class="label" id="label_company_name" for="company_name">Asutuse nimi</label>
+            <input id="company_name" type="text" class="register" >
+            <label class="label" id="label_company_code" for="company_code">Registrikood</label>
+            <input id="company_code" type="email" class="register">
+            <div class="company_confirmation_wrapper">
+                <div class="company_confirmation_checkbox">
+                    <input id="register-checkbox" type="checkbox" class="company_confirmation">
+                </div>
+                <div class="company_confirmation_label">
+                    <label id="label" for="company_confirmation">Kinnitan, et mul on õigus antud asutuse nimel konto luua. Mõistan, et asutuste nimel kolmandate isikute poolt konto loomine on keelatud. Veebihalduril on õigus sellised kontod kustutada ja kasutaja blokeerida.</label>
+                </div>
+            </div>
+        </form>
+        <div class="submit_button">
+            <button class="submit_but">Edasi</button>
+        </div>
+    </div>
+</main>
+
+
+</body>
+</html>
