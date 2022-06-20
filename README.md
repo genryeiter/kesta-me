@@ -1,4 +1,97 @@
-## Kesta.me install
+# Kesta.me projekt
+
+<img src="images/2022-06-20%2014.58.11.jpg"> 
+
+<div id="top"></div>
+
+[![MIT License][license-shield]][license-url]
+
+Project done in <a href="https://www.tlu.ee/">Tallinn University</a> on `Tarkvara arendus projekt` subject
+<br/>
+<br/>
+Review of the project <a href="https://docs.google.com/document/d/1T2djXbGz7ztciZpT6TcvsXttotfo4cGM_bz71SYOqMc/edit?usp=sharing">documentation</a>
+
+
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="##about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#Põhiprotsessid">Põhiprotsessid</a></li>
+        <li><a href="#Põhiprotsessid">Toimimisobjektid</a></li>
+      </ul>
+    </li>
+    <li> 
+      <a href="##built-with">Built with</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation">Database</a></li>
+        <li><a href="#installation">Assets</a></li>
+        <li><a href="#installation">Running mix</a></li>
+        <li><a href="#installation">Test emails</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contacts</a></li>
+  </ol>
+</details>
+
+## About The Project
+
+Kesta.me on hariduslik koostööprogramm ja peatselt ka veebiplatvorm, mis aitab noortel kasvada vastutustundlikuks
+maailmakodanikuks juba koolieast alates. Ettevõtted, riigiasutused ja vabaühendused jõuavad läbi programmi ägedate
+ideedeni ja tulevaste töötajateni, suurendavad oma nähtavust ja ühiskondlikku panust.
+
+Meie ülesanne on luua Kesta.me veebikeskkonnale liides riigiasutustele ja vabaühendustele, et jõuda säravate ideede ja
+tulevaste töötajateni, suurendades nende nähtavust ja sotsiaalset panust.
+
+### Põhiprotsessid
+
+- Kasutajakontode loomine
+- Kasutajate autoriseerimine
+- Uudislehte, ASV ja kasutajaprofiile vaatamine
+- ASV loomine
+- Kogu süsteemi administreerimine (ASV aktiveerimine, andmete muutmine ja vastuvõtmine)
+
+`ASV - Algatus-Sündmus-Väljakutse`
+
+### Toimimisobjektid
+
+- Kasutajakonto (Kasutaja profiil, Kasutaja paneel)
+- Administraatori konto (Administraatori profiil, Administraatori paneel)
+- Väljakutse
+- Sündmus
+- Algatus
+- Uudiste leht
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Built With
+
+The section below shows a list of used technologies, libraries and IDE
+
+* [React.js](https://reactjs.org/)
+* [Laravel](https://laravel.com/)
+* [React Router](https://reactrouter.com/)
+* [Figma](https://www.figma.com/)
+* [JavaScript](https://www.javascript.com/)
+* [PHP](https://www.php.net/)
+* [Composer](https://getcomposer.org/)
+* [ESLint](https://eslint.org/)
+* [Axios](https://axios-http.com/docs/intro)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Getting Started
+
+This is an example of how you may set up project locally. <br>
+To get a local copy up and running follow these simple Installation steps.
+
+### Installation
 
 ```
 git clone https://github.com/genryeiter/kesta-me.git
@@ -11,83 +104,61 @@ cp .env.example .env
 ./vendor/bin/sail artisan storage:link
 ```
 
-Once the application's Docker containers have been started, you can access the application in your web browser at: http://localhost.
+Once the application's Docker containers have been started, you can access the application in your web browser
+at: http://localhost.
 
-## Database
+### Database
 
 Regenerate database (run only in development)
+
 ```
 ./vendor/bin/sail artisan migrate:fresh --seed
 ```
 
-## Assets
+### Assets
+
 `./vendor/bin/sail npm install`
 
-
 ### Running mix
-`./vendor/bin/sail npm run dev` 
+
+`./vendor/bin/sail npm run dev`
 
 `./vendor/bin/sail npm run watch` - while developing (watcher)
 
 `./vendor/bin/sail npm run production` - for production
 
+### Test emails
 
-## Test emails
 http://localhost:8025/
 
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Customer's assessment
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contacts
+
+- German Eiter - genryeiter@gmail.com
+- Nikita Kajalinn
+- Andres Sikka
+- Dmitrii Shibin
+
+Project Link: [Kesta.me on Github](https://github.com/genryeiter/kesta-me)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+
+[license-url]: https://github.com/genryeiter/kesta-me/blob/main/License.txt
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
