@@ -49,6 +49,8 @@ ideedeni ja tulevaste töötajateni, suurendavad oma nähtavust ja ühiskondlikk
 Meie ülesanne on luua Kesta.me veebikeskkonnale liides riigiasutustele ja vabaühendustele, et jõuda säravate ideede ja
 tulevaste töötajateni, suurendades nende nähtavust ja sotsiaalset panust.
 
+Meie suur vajadusi oli abi järele kesta.me veebiplatvormi nn kaasamise osa prototüübi arendamisega. Meil olid olemas eelnevalt tehniline kirjeldus ja mõned esialgsed prototüübid Figmas. Benissimo tiim lõi juurde täiendavad arhitektuuri infoskeemid (väga põhjalikud, Miros), täiendavad persoonad, ja programmeeris prototüübi klikitava osa (ilma serverile saadetavate päringute ja vastusteta, kuna  ei jõudnud ühendada kliendiosa ja serveriosa).  Tiimiga Benissimo oli väga hea koostööd teha. Nad olid professionaalsed ja töökad. Tiimijuht German suhtles minuga piisavalt tihti ning andis ülevaate projekti seisust. Samuti oli ta asjalik projektijuht, kes hoolitses töövoogude, ülesannete täitmise ja tiimi koostöö eest, samuti toetades liikmeid, kes olid vähemate varasemate teadmiste-oskustega. Tiim on töötanud kesta.me platvormi prototüübi edasiarendusega ning teinud selles osas väga põhjalikku tööd. Kesta.me algatajatena oleme väga tänulikud selle koostöö eest ning loodame, et tudengitele oli see võimalus sama kasulik ja edasiviiv, kui meile.
+
 ### Põhiprotsessid
 
 - Kasutajakontode loomine
